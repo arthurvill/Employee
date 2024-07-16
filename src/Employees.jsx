@@ -7,11 +7,13 @@ const Employees = () => {
         { name: 'Arthur Villareal', position: 'Manager', salary: 90000, status: 'Active' },
         { name: 'Nathaniel Ubas', position: 'Developer', salary: 80000, status: 'Active' },
         { name: 'Francis Martinez', position: 'Designer', salary: 70000, status: 'Active' },
-        { name: 'Leo Nino Lariego', position: 'Developer', salary: 8000, status: 'Not Active' },
+        { name: 'Leo Nino Lariego', position: 'Developer', salary: 8000, status: 'Active' },
         { name: 'Angelo Rafayla', position: 'Designer', salary: 75000, status: 'Active' },
-        { name: 'Aaron Canasa', position: 'Manager', salary: 95000, status: 'Not Active' },
-        { name: 'Jay Mike alterado', position: 'Manager', salary: 95000, status: 'Not Active' },
-        
+        { name: 'Aaron Canasa', position: 'Manager', salary: 95000, status: 'Active' },
+        { name: 'Jay Mike alterado', position: 'Manager', salary: 95000, status: 'Active' },
+        { name: 'Jessica Soho', position: 'Designer', salary: 73000, status: 'Active' },
+        { name: 'Johny Sins', position: 'Manager', salary: 0, status: 'Not Active' },
+        { name: 'Diwata Pares', position: 'Developer', salary: 0, status: 'Not Active' }
     ];
 
     return (
