@@ -1,15 +1,13 @@
-// src/App.js
+// src/App.jsx
 import React from 'react';
-import './App.css';
-import Employees from './Employees';
+import Citizens from './components/Citizens';
 
-function App() {
-    return (
-        <div className="App">
-            <h1>EMPLOYEE</h1>
-            <Employees />
-        </div>
-    );
-}
+const App = () => {
+  return (
+    <div>
+      <Citizens />
+    </div>
+  );
+};
 
 export default App;
