@@ -1,0 +1,93 @@
+/* src/App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  max-width: 100%; /* Ensure it adapts to different screen sizes */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search-filter input {
+  width: 50%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.search-filter input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+  outline: none;
+}
+
+.citizens-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+ 
+  width: 1200px;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.citizens-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.citizen {
+  border: 0.5px solid #ddd;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+ 
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+
+.citizen p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 1.1em;
+}
+
+button {
+  padding: 12px 24px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

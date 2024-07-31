@@ -1,17 +1,15 @@
-// src/components/Citizen.jsx
+// src/components/Citizen.js
 import React from 'react';
 
-const Citizen = ({ citizen, index, toggleStatus }) => (
-  <tr>
-    <td>{index + 1}</td>
-    <td>{citizen.name}</td>
-    <td>{citizen.age}</td>
-    <td>{citizen.address}</td>
-    <td>{citizen.status}</td>
-    <td>
-      <button onClick={() => toggleStatus(index)}>Toggle Status</button>
-    </td>
-  </tr>
+const Citizen = ({ citizen, index, onToggleStatus }) => (
+  <div className="citizen">
+    <p>No.: {index + 1}</p>
+    <p>Name: {citizen.name}</p>
+    <p>Age: {citizen.age}</p>
+    <p>Address: {citizen.address}</p>
+    <p>Status: {citizen.status}</p>
+    <button onClick={() => onToggleStatus(index)}>Toggle Status</button>
+  </div>
 );
 
 export default Citizen;
