@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "react",
+=======
   "name": "employee-management",
+>>>>>>> origin/main
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,7 +22,11 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^8.57.0",
+<<<<<<< HEAD
+    "eslint-plugin-react": "^7.34.2",
+=======
     "eslint-plugin-react": "^7.34.3",
+>>>>>>> origin/main
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "vite": "^5.3.4"
